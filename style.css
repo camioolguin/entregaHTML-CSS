@@ -1,0 +1,91 @@
+body{
+    font-family: 'Alata', sans-serif;
+}
+h1{
+    text-align: center;  
+  }
+  h2{
+      font-weight: 400;
+      
+  }
+  p{
+      font-weight: 300;
+  }
+.table{
+        font-family: 'Alata', sans-serif;
+        align-items: center;
+        padding: 20px;
+        margin: 20px;
+      }
+      
+      td, th {
+        border: 1px solid #cabb9e;
+        text-align: center;
+        padding: 8px; 
+      }
+      
+.nav-enlace{
+    display: inline-block;
+background: #cabb9e;
+color: #362822;
+padding: 10px 100px;
+text-decoration: none
+}
+.nav-enlace:hover{
+    background: #f5ecdc;
+}
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around
+}
+.nav-button{
+    background: salmon;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;
+}
+.container{
+margin: 0 auto;
+width: 80%;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.flex{
+  display: flex;  
+  flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+background: rgb(228, 228, 228);
+color: #333;
+border: 1px solid #333;
+margin: 0px auto;
+padding: 10px;
+border-radius: 5px;
+box-shadow: 10px 10px 20px #888;
+width: 23%;
+box-sizing: border-box;
+}
+
+.precio{
+font-size: 35px;
+color: #ec615f;
+}
+.btn-precio{
+background: #8eb44e;
+display: block;
+padding: 10px;
+color: white;
+text-decoration: none;
+border-radius: 3px;
+margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background:#d9af52;
+}
+
+  
