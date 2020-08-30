@@ -87,5 +87,20 @@ margin-bottom: 10px;
 .btn-precio:hover{
     background:#d9af52;
 }
-
+.column{ 
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: .5rem ;
+    }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    margin-bottom: .5rem 0;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
   
